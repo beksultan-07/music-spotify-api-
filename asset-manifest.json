@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/music-spotify-api-/static/css/main.c8ad65ba.chunk.css",
+    "main.js": "/music-spotify-api-/static/js/main.ca4fb06f.chunk.js",
+    "main.js.map": "/music-spotify-api-/static/js/main.ca4fb06f.chunk.js.map",
+    "runtime-main.js": "/music-spotify-api-/static/js/runtime-main.4d93460a.js",
+    "runtime-main.js.map": "/music-spotify-api-/static/js/runtime-main.4d93460a.js.map",
+    "static/js/2.85d9f8ae.chunk.js": "/music-spotify-api-/static/js/2.85d9f8ae.chunk.js",
+    "static/js/2.85d9f8ae.chunk.js.map": "/music-spotify-api-/static/js/2.85d9f8ae.chunk.js.map",
+    "static/js/3.b042f464.chunk.js": "/music-spotify-api-/static/js/3.b042f464.chunk.js",
+    "static/js/3.b042f464.chunk.js.map": "/music-spotify-api-/static/js/3.b042f464.chunk.js.map",
+    "index.html": "/music-spotify-api-/index.html",
+    "static/css/main.c8ad65ba.chunk.css.map": "/music-spotify-api-/static/css/main.c8ad65ba.chunk.css.map",
+    "static/js/2.85d9f8ae.chunk.js.LICENSE.txt": "/music-spotify-api-/static/js/2.85d9f8ae.chunk.js.LICENSE.txt",
+    "static/media/delete.6853ac27.png": "/music-spotify-api-/static/media/delete.6853ac27.png",
+    "static/media/like.70a373d4.png": "/music-spotify-api-/static/media/like.70a373d4.png",
+    "static/media/like1.6a39de35.png": "/music-spotify-api-/static/media/like1.6a39de35.png",
+    "static/media/user.f8cc65ce.png": "/music-spotify-api-/static/media/user.f8cc65ce.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4d93460a.js",
+    "static/js/2.85d9f8ae.chunk.js",
+    "static/css/main.c8ad65ba.chunk.css",
+    "static/js/main.ca4fb06f.chunk.js"
+  ]
+}
