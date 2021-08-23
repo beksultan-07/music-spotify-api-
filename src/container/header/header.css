@@ -1,0 +1,116 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.logo{
+    font-weight: bold;
+    font-family: sans-serif;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 32px;
+    padding: 0 20px;
+}
+
+.logo span{
+    color: rgb(7, 211, 0);
+    
+}
+
+.form{
+    margin-left: auto;
+    margin-right: 50px;
+}
+
+.btn{
+    font-size: 1.1rem;
+    outline: none;
+    background: rgb(7, 211, 0);
+    border-radius: 0 10px 10px 0;
+    color: #fff;
+    padding: 8px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+}
+
+.form input{
+    outline: none;
+    font-size: 1.1rem;
+    padding: 9px 19px;
+    border-radius: 10px 0px 0px 10px;
+    background: #222;
+    color: #fff;
+    border: none;
+}
+
+
+.menu{
+    width: 50px;
+    transition: .3s;
+
+}
+img{
+    width: 100%;
+}
+.userPhoto{
+    cursor: pointer;
+    width: 40px;    
+    transform: scale(1.5);
+    padding-top: 5px;
+    transition: .3s;
+}
+.userPhoto:hover {
+    transform: scale(1.7);
+}
+.btn__sign {
+    background: none;
+    border: 3px solid #fff;
+    font-family: sans-serif;
+    color: #fff;
+    padding: 8px 20px;
+    font-size: 1.2rem;
+    margin-right: 50px;
+}
+
+.like{
+    width: 40px;
+    margin-right: 25px;
+    transition: .3s;
+}
+.user{
+    width: 38px;
+    transition: .3s;
+}
+.user:hover {
+    transform: scale(1.2);
+}
+.like:hover{
+    transform: scale(1.2);
+}
+
+@media only screen and (max-width: 400px) {
+    .logo{
+        font-size: 70px;
+    }
+    .form input{
+        font-size: 32px;
+        padding: 15px 20px;
+        border-radius: 15px 0px 0px 15px;
+    }
+    .btn{
+        font-size: 36px;
+        border-radius: 0 15px 15px 0;
+        padding: 14px 1px;
+    }
+    .like {
+        width: 67px;
+    }
+    .user{
+        width: 67px;
+
+    }
+}

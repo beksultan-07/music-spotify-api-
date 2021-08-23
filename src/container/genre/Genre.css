@@ -1,0 +1,126 @@
+
+.playlists{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+}
+
+
+.playlist__img{
+    border-radius: 15px;
+
+}
+
+.playlist__item{
+    text-align: center;
+    height: 100%;
+    cursor: pointer;
+    border-radius: 15px;
+    transition: .3s;
+    padding: 20px;
+    color: #fff;
+    font-family: sans-serif;
+    background: #111;   
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.playlist__name{
+    margin-top: auto;
+    font-size: 2rem;
+}
+
+
+.playlist__item:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 0px 11px rgba(0, 255, 56, 0.83);
+
+}
+
+.controlls{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.btns {
+    font-size: 2rem;
+    outline: none;
+    background: #222;
+    border-radius: 10px;
+    color: #fff;
+    padding: 10px 20px;
+    box-shadow: 0px 0px 11px rgba(0, 255, 56, 0.83);
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    margin-bottom: 1rem;
+    margin-top: 20px;
+    transition: .2s;
+}
+
+.btns:hover{
+    background: #111;
+}
+
+.playlist__item h3{
+    color: #fff;
+}
+
+.playlist__item a{
+    margin-top: 1rem;
+    text-decoration: none;
+}
+
+.item__bottom{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.likeIcon{
+    width: 30px;
+    order: 1;
+    /* border-radius: 50%; */
+    transition: .3s;
+}
+
+.likeIcon:hover{
+    transform: scale(1.5);
+
+}
+
+.trackBtn{
+    font-size: 1rem;
+    outline: none;
+    background: #222;
+    border-radius: 10px;
+    color: #fff;
+    padding: 8px 20px;
+    box-shadow: 0px 0px 11px rgba(0, 255, 56, 0.83);
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    margin-bottom: 1rem;
+    margin-top: 20px;
+    transition: .2s;
+}
+
+.trackBtn:hover{
+    background: #111;
+}
+
+@media only screen and (max-width: 600px) {
+    .playlists {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+
+  @media only screen and (max-width: 400px) {
+    .playlists {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
